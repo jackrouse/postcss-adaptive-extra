@@ -8,7 +8,7 @@ var _postcss = require('postcss');
 
 var _postcss2 = _interopRequireDefault(_postcss);
 
-var _package = require('../package.json');
+var _package = require('./package.json');
 
 var _package2 = _interopRequireDefault(_package);
 
