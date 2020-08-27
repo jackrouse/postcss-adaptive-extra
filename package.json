@@ -1,6 +1,6 @@
 {
   "name": "postcss-adaptive-extra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "depend on postcss-adaptive,add configure options based on path",
   "main": "index.js",
   "scripts": {
