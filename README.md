@@ -45,7 +45,7 @@ module.exports = {
         remUnit: 75,
         autoRem:true,
         extra:{
-          path:'node_modules\\antd-mobile',
+          path:/node_modules\\antd-mobile/,
           remUnit: 37.5
         }
       })
