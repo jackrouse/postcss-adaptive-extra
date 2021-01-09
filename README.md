@@ -44,10 +44,19 @@ module.exports = {
       adaptive({
         remUnit: 75,
         autoRem:true,
-        extra:{
-          path:/node_modules\\antd-mobile/,
+        // extra:{
+        //   path:/node_modules\\antd-mobile/,
+        //   remUnit: 37.5
+        // }
+        // //or
+        extra: [{
+          path: /node_modules\\vant/,
           remUnit: 37.5
-        }
+        }, {
+          path: /node_modules\\swiper/,
+          autoRem: false,
+          baseDpr: 1
+        }]
       })
     ];
   }
